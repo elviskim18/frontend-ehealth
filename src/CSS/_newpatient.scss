@@ -1,0 +1,51 @@
+.newrecord{
+    background-color: gainsboro;
+    height: 100vh;
+
+    .header{
+        
+        display: flex;
+        padding-left: 20px;
+        img{
+            height: 250px;
+        }
+        h3{
+            font-weight: lighter;
+            padding-top: 20px;
+            font-size: 1.6em;
+            margin-top: 150px;
+            
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 50%;
+        .submit{
+            background-color: #999;
+            border-radius: 5px;
+            width: 25%;
+            margin-top: 20px;
+            
+        }
+        input{
+            padding: 20px;
+            margin-bottom: 10px;
+            border: none;
+           
+        }
+        .large{
+            padding: 20px;
+        }
+        label{
+            padding: 10px;
+        }
+        select{
+            width: 50%;
+            padding: 5px;
+            margin-left: 10px;
+        }
+    }
+}

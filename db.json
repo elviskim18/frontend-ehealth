@@ -1,0 +1,147 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Kamau",
+      "gender": "male",
+      "number": 254741791922,
+      "dob": "2022-07-05",
+      "weight": "80",
+      "bloodgroup": "A",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Phenemonia"
+    },
+    {
+      "id": 2,
+      "name": "Mary njeri",
+      "gender": "male",
+      "number": 254741780922,
+      "dob": "2022-07-05",
+      "weight": 56,
+      "bloodgroup": "A",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Phenemonia"
+    },
+    {
+      "id": 3,
+      "name": "Sarah wewee",
+      "gender": "female",
+      "number": 254721780932,
+      "dob": "2022-07-05",
+      "weight": 55,
+      "bloodgroup": "A",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Phenemonia"
+    },
+    {
+      "id": 4,
+      "name": "Dan zzzzzzzzz",
+      "gender": "male",
+      "number": 254731780772,
+      "dob": "2022-07-05",
+      "weight": "75",
+      "bloodgroup": "B",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Phenemonia"
+    },
+    {
+      "id": 5,
+      "name": "Fred whoo",
+      "gender": "male",
+      "number": 254722768932,
+      "dob": "2022-07-05",
+      "weight": "74",
+      "bloodgroup": "AB",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Phenemonia"
+    },
+    {
+      "name": "Martin njoto",
+      "gender": "male",
+      "number": "2547922222",
+      "dob": "2022-07-17",
+      "weight": "45",
+      "bloodgroup": "o",
+      "symptoms": "Diarhoea",
+      "diagnosis": "food poisosning",
+      "id": 6
+    },
+    {
+      "name": "junet tambo",
+      "gender": "male",
+      "number": "2547922222",
+      "dob": "2022-07-05",
+      "weight": "34",
+      "bloodgroup": "b",
+      "symptoms": "asfwefwef",
+      "diagnosis": "errere",
+      "id": 7
+    },
+    {
+      "name": "Linda Gates",
+      "gender": "female",
+      "number": "254741864744",
+      "dob": "2022-07-05",
+      "weight": "56",
+      "bloodgroup": "ab",
+      "symptoms": "Hot like a heater",
+      "diagnosis": "take water",
+      "id": 8
+    },
+    {
+      "name": "Elvis Kimani",
+      "gender": "",
+      "number": "254731780772",
+      "dob": "2022-09-24",
+      "weight": "56",
+      "bloodgroup": "b",
+      "symptoms": "Mild Cough. High fever",
+      "diagnosis": "Stay home",
+      "id": 9
+    },
+    {
+      "name": "Rugo Mandlee",
+      "gender": "female",
+      "number": "254731780772",
+      "dob": "2022-09-10",
+      "weight": "45",
+      "bloodgroup": "ab",
+      "symptoms": "asfwefwef",
+      "diagnosis": "Stay home",
+      "id": 10
+    },
+    {
+      "name": "Cleser Mere",
+      "gender": "female",
+      "number": "254721780932",
+      "dob": "2022-09-16",
+      "weight": "74",
+      "bloodgroup": "o",
+      "symptoms": "I doonr",
+      "diagnosis": "wfef2ef",
+      "id": 11
+    },
+    {
+      "name": "junet",
+      "gender": "female",
+      "number": "2547922222",
+      "dob": "2022-09-16",
+      "weight": "75",
+      "bloodgroup": "b",
+      "symptoms": "High fever",
+      "diagnosis": "food poisosning",
+      "id": 12
+    },
+    {
+      "name": "junet",
+      "gender": "female",
+      "number": "254721780932",
+      "dob": "2022-09-01",
+      "weight": "55",
+      "bloodgroup": "b",
+      "symptoms": "High fever",
+      "diagnosis": "Stay home",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  
+  .left{
+    background-color:#9ba8d8;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    padding-top: 30px;
+    span{
+      font-size: 2em;
+      padding: 2em;
+      font-family: 'Nunito', sans-serif;
+      .icon{
+        font-size: 2em;
+        
+      }
+    }
+    h4{
+      color: white;
+      font-family: 'Nunito', sans-serif;
+      margin-left: 95px;
+      font-weight: lighter;
+      margin-bottom: 110px;
+    }
+    h2{
+      color: white;
+      font-weight: lighter;
+      font-size: 3em;
+      margin-left: 270px;
+    }
+    .image{
+      margin-left: 350px;
+      height: 350px;
+    }
+   
+    
+  }
+  .right{
+    h4{
+      right: 450px;
+      font-family: 'Courier New', Courier, monospace;
+      position: absolute;
+      bottom: 280px;
+      font-weight: lighter;
+    }
+    p{
+      right: 430px;
+      font-family: 'Courier New', Courier, monospace;
+      position: absolute;
+      bottom: 240px;
+      font-weight: lighte
+    }
+    h2{
+      right: 380px;
+      position: absolute;
+      top: 150px;
+      font-weight: lighter;
+      font-size: 1.9em;
+    }
+    width: 50%;
+    form{
+      position: absolute;
+      top: 280px;
+      right: 300px;
+      display: flex;
+      flex-direction: column;
+    .submit{
+      background-color: #9ba8d8;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+    }
+    input{
+      border-radius: 10px;
+      width: 300px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 3px solid #ccc;
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+      outline: none;
+      
+    }
+
+
+    }
+  }
+}
+
+
+

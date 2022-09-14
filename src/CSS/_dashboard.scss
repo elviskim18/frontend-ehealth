@@ -1,0 +1,129 @@
+.dashboard{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    .dleft{
+        width: 70%;
+
+       
+        .hcontainer{
+           
+            display: flex;
+            flex-direction: row;
+            padding-left: 20px;
+            padding-top: 20px;
+            
+            .circle{
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                background-image: url("../images/img6.png"); /* The image used */
+                background-size: cover;
+            }
+            h4{
+                padding-left: 30px;
+                padding-top: 20px;
+                font-size: 1.2em;
+            }
+            
+            .button{
+                padding-left: 750px;
+                padding-top: 20px;
+                button{
+                    border: none;
+                    padding: 7px 20px;
+                    border-radius: 10px;
+                    background-color: black;
+                    color: white;
+                }
+               
+            }
+        }
+        h3{
+            padding-top: 30px;
+            font-weight: lighter;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        .stats{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            color: white;
+            font-weight: 600;
+            font-family: 'Courier New', Courier, monospace;
+            
+            .stat1{
+                h4{
+                    padding-bottom: 20px;
+                }
+                height: 150px;
+                width: 150px;
+                background-color: aqua;
+                text-align: center;
+                border-radius: 10px;
+            }
+            .stat2{
+                h4{
+                    padding-bottom: 20px;
+                }
+                height: 150px;
+                width: 150px;
+                background-color: #b2ed52;
+                text-align: center;
+                border-radius: 10px;
+            }
+            .stat3{
+                h4{
+                    padding-bottom: 20px;
+                }
+                height: 150px;
+                width: 150px;
+                background-color: rgb(230, 134, 227);
+                text-align: center;
+                border-radius: 10px;
+            }
+
+        }
+        .notifications{
+        
+            padding-left: 20px;
+            h4{
+                padding-top: 20px;
+                span{
+                    font-size: 1.8em;
+                    padding-right: 10px;
+                    color: #90A1DC;
+                }
+                padding-bottom: 20px;
+            }
+            .notes{
+                display: flex;
+                flex-direction: column;
+                overflow: hidden;
+                overflow-y: auto;
+                height: 30vh;
+
+                li{
+                    list-style: none;
+                    background-color: rgb(144, 161, 220,14%);
+                    padding: 20px;
+                    margin-top: 10px;
+                    em{
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+    .dright{
+        width: 30%;
+        background-color: #9ba8d8;
+        .calimage{
+            width: 100%;
+            
+        }
+    }
+
+}

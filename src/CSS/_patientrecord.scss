@@ -1,0 +1,103 @@
+.patientrecord{
+   
+    height: 100vh;
+
+    .header{
+        
+        display: flex;
+        padding-left: 20px;
+        img{
+            height: 250px;
+        }
+        h3{
+            font-weight: lighter;
+            padding-top: 20px;
+            font-size: 1.6em;
+            margin-top: 150px;
+            
+        }
+    }
+
+    form{
+      
+        padding: 40px;
+        input{
+            padding: 15px 40px;
+            background-color: black;
+            color: white; 
+            border-radius: 3px;
+        }
+        button{
+            margin-left: 5px;
+            padding: 15px;
+            border: none;
+        }
+    }   
+
+    .cont{
+        
+        display: flex;
+        flex-direction: row;
+    }
+    .disp{
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #ebfbfb;
+        width: 50%;
+        padding-left: 10px;
+        h3{
+            text-align: center;
+        }
+        p{
+            padding: 10px;
+        }
+        button{
+            padding: 10PX;
+            margin-right: 8PX;
+            margin-top: 15px;
+            background-color: #3e8e7a;
+            border: none;
+        }
+        .styleform{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            label{
+                padding-left: 10px;
+            }
+            input{
+                margin-left: 10px;
+                margin-bottom: 10px;
+                background-color: #ebfbfb;
+                color: black;
+            }
+        }
+    }
+
+ 
+
+    .records{
+        
+        padding-left: 20px;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-y: auto;
+        height: 50vh;
+
+        
+        li{
+            list-style: none;
+            background-color: #D9D9D9;
+            &:hover{
+                margin-left: 1rem;
+            }
+            border: 1px solid #3e8e7a;
+            padding: 20px;
+            margin-bottom: 10px;
+            padding-left: 10px;
+           
+        }
+    }
+}
