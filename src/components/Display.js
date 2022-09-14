@@ -12,7 +12,7 @@ function Display({logedin}) {
   const [patients, setPatients] = useState([]);
   
   
-  const url = "http://localhost:9292/patients";
+  const url = "https://e-health-backend.herokuapp.com/patients";
 
   //get patient records when page loads
   function getPatients() {
@@ -36,14 +36,14 @@ function Display({logedin}) {
 
   //add new patient
   function addPatient(newUser) {
-    axios.post("http://localhost:9292/newPatient", newUser);
+    axios.post("https://e-health-backend.herokuapp.com/newPatient", newUser);
     setPatients([...patients, newUser]);
   }
 
   //update
   const updatePatient = async(id,object) =>{
     try {
-        await axios.patch(`http://localhost:9292/updatepatient/${id}`,object)
+        await axios.patch(`https://e-health-backend.herokuapp.com/updatepatient/${id}`,object)
         .then((res)=> getPatients())
         // setpatients([...patients,object])
     }
@@ -57,7 +57,7 @@ function Display({logedin}) {
     function deletePatient (id){
         let update = patients.filter((pat) => pat.id !== id)
         setPatients(update);
-        axios.delete(`http://localhost:9292/deletepatient/${id}`)
+        axios.delete(`https://e-health-backend.herokuapp.com/deletepatient/${id}`)
         
 
     }

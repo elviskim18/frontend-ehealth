@@ -27,7 +27,7 @@ function Signup() {
 
     //fetch doctor credentials
     function handleSubmit (e){
-      axios.post("http://localhost:9292/register",formdata)
+      axios.post("https://e-health-backend.herokuapp.com/register",formdata)
       .then(resp => {
         console.log(resp.data)
         if (Object.values(resp.data).length > 1){

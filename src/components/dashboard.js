@@ -37,7 +37,7 @@ function Dashboard ({patients}){
          function deleteNotification(id) {
             let update = patients.filter((pat) => pat.id !== id);
             setNotifications(update);
-            axios.delete(`http://localhost:9292/removenotification/${id}`);
+            axios.delete(`https://e-health-backend.herokuapp.com/removenotification/${id}`);
             alert("Notification deleted");
         }
 
@@ -50,16 +50,16 @@ function Dashboard ({patients}){
         
         // setaccount(logedInfo)
 
-        axios.get("http://localhost:9292/alldoctors")
+        axios.get("https://e-health-backend.herokuapp.com/alldoctors")
         .then(resp => {
             setcountdoctors(resp.data)})
 
 
-        axios.get("http://localhost:9292/nurses")
+        axios.get("https://e-health-backend.herokuapp.com/nurses")
         .then(resp => setcountnurses(resp.data))
         
     
-        axios.get(`http://localhost:9292/myappointments/${logedInfo?.id}`)
+        axios.get(`https://e-health-backend.herokuapp.com/myappointments/${logedInfo?.id}`)
         .then(resp => {
             console.log(resp.data)
             // test = resp.data
